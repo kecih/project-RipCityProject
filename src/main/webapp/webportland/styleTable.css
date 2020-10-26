@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: testFont;
+	src:url('font/Marlboro.ttf');
+}
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+	width: 250%;
+	border: solid 1px #EBEBEB;
+	padding: 5rem;
+	margin-left: -170px;
+}
+
+button{ 
+	margin-top: 2rem;
+}

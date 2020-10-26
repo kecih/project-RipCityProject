@@ -1,0 +1,247 @@
+*,html,body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(team.jpg);
+	background-position: center;
+	height: 100%;
+	font-family: testFont;
+	width: 100%;
+}
+.page-wrapper{
+	min-height: 1%;
+}
+@font-face{
+	font-family: testFont;
+	src:url('font/Marlboro.ttf');
+
+}
+
+.borderfoto{
+color:white;
+border:1px solid red;
+width: 280px;
+float: left;
+margin-left: 140px;
+
+align-content: center;
+
+}
+.borderfotoBawah{
+	color:white;
+	border:1px solid red;
+	width: 280px;
+	height: 300px;
+	align-content: center;
+	float: left;
+	margin: 50px;
+	margin-left: 280px;
+}
+
+header
+{
+	height: 105px;
+	line-height: 112px;
+	width: 90%;
+	width: 100%;
+	background-color: #931e2e;
+	font-family: testFont;
+	border: 6px solid black;
+
+}
+
+ul
+{
+	list-style: none;
+	font-family: testFont;
+}
+
+ul li
+{
+	display: inline-block;
+	font-family: testFont;
+
+}
+
+header nav
+{
+	float: right;
+	font-family: testFont;
+	
+}
+
+.logo img
+{
+	margin: center;
+
+}
+
+header nav ul li a
+{
+	margin-right:100px;
+	font-weight: bold;
+	color: white;
+	text-decoration:none;
+	font-size:25px;
+	float:center;
+	font-family: testFont;
+}
+
+header nav ul li a:hover
+{
+	color: yellow;
+}
+.img1
+{
+	opacity: 0.7;
+	background-size: 100%;
+}
+
+.slider, .slider ul, .slider ul li
+{
+	height: 710px;
+	width: 100%;
+	color: #ffffff;
+	size:90px;
+	text-align: center;
+	font-family: testFont;
+	opacity: 1;
+}
+
+.slider h2
+{
+	font-weight: bold;
+	margin-top: 200px;
+	color:gold;
+	opacity: 1;
+	font-family: testFont;
+	font-size:40px;
+}
+.roster{
+	margin-top: 150px;
+	width: 100%;
+	font-family: testFont;
+	align-content: center;
+	background-size: 100% 100%;
+}
+.profile .court img{
+	width:500px; 
+	height:300px; 
+	margin-left:100px;
+	border:4px solid grey;
+}
+.homecourt:hover img{
+
+    box-shadow: 7px 7px 10px 2px red;
+    cursor: pointer;
+}
+.court2:hover img{
+	box-shadow: 7px 7px 10px 2px red;
+    cursor: pointer;
+}
+.homecourt{
+	float: left;
+}
+
+.profile .jersey img{
+	width:300px; 
+	height:330px; 
+	margin-left:100px;
+	border:4px solid grey;
+}
+.jersey{
+	width: 100%;
+}
+.foto1:hover img{
+	
+    box-shadow: 7px 7px 10px 2px red;
+    cursor: pointer;
+}
+.foto1{
+	float: left;
+	
+	
+}
+table{
+margin-top: 20px;
+margin-bottom: 50px;
+text-align: center;
+width: 100%;
+color: white;
+}
+th{
+	text-align: center;
+	font-size: 28px;
+}
+td{
+	color: red;
+	text-align: center;
+	font-size: 24px;
+	background: #E0E0E0;
+	border-spacing: 80px;
+
+}
+.footer{
+	background: #931e2e;
+	color: #E0E0E0;
+	height: 300px; 
+	position: relative;
+	font-family: testFont;
+	width: 100%;
+}
+
+.footer .footer-content{
+	border: 5px solid #202020;
+	height: 250px;
+	display: flex;
+	font-family: testFont;
+
+}
+
+.footer .footer-content .address h1 span{
+	color: #160E7F;
+	font-family: testFont;
+}
+.footer .footer-content .address .contact span{
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 8px;
+	font-family: testFont;
+
+}
+.footer .footer-content .address .socials a{
+	border: 1px solid gray;
+	width: 45px;
+	height: 41px;
+	padding-top: 5px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	margin-right: 5px;
+	font-size: 1.3em;
+}
+.footer .footer-content .address .socials a:hover{
+	border: 2px solid #E0E0E0;
+	transition: all 1s;
+	color: #E0E0E0;
+	font-family: testFont;
+}
+.footer .footer-content .footer-section{
+flex: 1;
+padding: 25px;
+
+}
+.footer .footer-bottom{
+	background: black;
+	color: #E0E0E0;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	bottom: 0px;
+	padding-top: 20px;
+
+}
